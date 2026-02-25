@@ -25,7 +25,7 @@ ts["WeekIndex"] = np.arange(len(ts))
 ts["Lag1"] = ts["Revenue"].shift(1)
 ts["Lag2"] = ts["Revenue"].shift(2)
 ts["Lag3"] = ts["Revenue"].shift(3)
-ts["RollingMean4"] = ts["Revenue"].rolling(4).mean()
+ts["RollingMean4"] = ts["Revenue"].shift(1).rolling(4).mean()
 
 ts = ts.dropna().reset_index(drop=True)
 
