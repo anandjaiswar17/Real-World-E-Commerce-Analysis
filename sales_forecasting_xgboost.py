@@ -161,4 +161,4 @@ for i in range(1, 5):
 
 print(f"\nForecast: {future_preds}")
 print(f"Average forecast: ${np.mean(future_preds):,.0f}")
-print(f"Recent 4-week average: ${ts['Revenue'].tail(4).mean():,.0f}")
+print(f"Recent 4-week average: ${ts['Revenue'].tail(4).mean():,.0f}") 
