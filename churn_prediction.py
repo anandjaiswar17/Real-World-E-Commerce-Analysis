@@ -66,4 +66,4 @@ print(classification_report(y_test, y_pred))
 
 os.makedirs("models", exist_ok=True)
 joblib.dump(model, MODELS)
-print(f"Model saved to {MODELS}")
+print(f"Model saved to {MODELS}") 
