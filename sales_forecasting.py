@@ -91,4 +91,4 @@ for i in range(1, 5):
         }])
     ], ignore_index=True) 
 
-print("Next 4-week forecast:", [round(x, 0) for x in future_preds])
+print("Next 4-week forecast:", [round(x, 0) for x in future_preds]) 
