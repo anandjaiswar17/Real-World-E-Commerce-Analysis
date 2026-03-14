@@ -84,5 +84,5 @@ python sales_forecasting.py
 
 - Time-based validation (no data leakage)
 - Cross-validation
-- Model persistence
-- Clean production-style structure  
+- Model persistence 
+- Clean production-style structure
